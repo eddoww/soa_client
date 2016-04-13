@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+	<assemblyIdentity version="1.0.0.0" processorArchitecture="X86" name="astonia" type="win32" />
+	
+	<!-- the <description> tag is required but you don't have to fill it out -->
+	<description></description>
+
+	<!-- for elevated permissions add this... Usually you do NOT want this -->
+	<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+		<security>
+			<requestedPrivileges>
+				<requestedExecutionLevel level="requireAdministrator" uiAccess="false"/>
+			</requestedPrivileges>
+		</security>
+	</trustInfo>
+
+</assembly>
